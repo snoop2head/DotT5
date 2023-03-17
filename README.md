@@ -19,10 +19,10 @@ model = AutoModelForSeq2SeqLM.from_pretrained("snoop2head/KoBrailleT5-small-v1")
 ```
 DotT5
 ㄴ src
-	ㄴ config.yaml - train / inference configs
-	ㄴ build_tokenizer.py - BPE tokenizer training
-	ㄴ utils.py - utils for training & inferencing
-	ㄴ main.py - script for training 
+  ㄴ config.yaml - train / inference configs
+  ㄴ build_tokenizer.py - BPE tokenizer training
+  ㄴ utils.py - utils for training & inferencing
+  ㄴ main.py - script for training 
   ㄴ inference.py - script for inferencing
 ```
 
